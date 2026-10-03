@@ -7,3 +7,6 @@ Since sentences are of different lengths, we could pad zeros to make sentences o
 it took like 10 mins per epoch 🥀🥀🥀 so ditched it)
 What was done to fasten training is dropping rare words, limiting vocabulary of words, taking sentences of decent sizes; and to reduce overfitting added 
 Dropout 
+
+The model got a BLEU score of 11 which is terrible so it doesn't perform well however the BLEU score is fair for sentences with less than 10 words so the 
+model goes haywire for longer sentences
