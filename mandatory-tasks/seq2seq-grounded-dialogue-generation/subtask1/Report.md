@@ -4,7 +4,7 @@ Each hidden and cell state generated are at the end added to create a context ve
 by word and its losses are calculated with predicted against actual during training.
 
 Since sentences are of different lengths, we could pad zeros to make sentences of equal length and check but this would take up lot of memory (I did that first
-it took like 10 mins per epoch 🥀🥀🥀 so ditched it), instead we can bucket batch similar length sentences into a single batch to prevent excessive padding 
+it took like 10 mins per epoch 🥀🥀🥀 so ditched it), instead we can bucket batch similar length sentences into a single batch to prevent excessive padding.  
 What was done to fasten training is dropping rare words, limiting vocabulary of words, taking sentences of decent sizes; and to reduce overfitting added 
 Dropout 
 
