@@ -1,5 +1,5 @@
 The dataset contains `34250 listings` with each listing having a `listing id`, corresponding `image` uploaded, `title` and `label_group`. Items having same label
-groups are same items. There are no null values in the dataset and it contains 11014 product groups i.e. almost every group has approx 3 listings on average 
+groups are same items. There are `no null` values in the dataset and it contains `11014 product groups` i.e. almost every group has approx 3 listings on average 
 without inspecting data.
 After seeing the product group distribution graph, almost 7k products are listed twice, almost 2k are listed thrice, less than 1k four times and so on where
 value keeps getting lower significantly.
