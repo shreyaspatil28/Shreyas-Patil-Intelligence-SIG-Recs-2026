@@ -13,4 +13,7 @@ Also I found most occurring words in titles with top of them to be `anak`, `wani
 of 10000 images to find distribution of number of colors present in an image, they mostly had `5-9 colors` with `9` being the highest. Then ran another 
 batch to find distribution of pairs of listings having highly similar titles and same predominant color. Got around 150 pairs for white and 100 pairs for 
 gray but its not meaningful enough because these are mostly just highly similar titles with white/gray background as most images do. Very few 
-pairs have colored image with highly similar titles
+pairs have colored image with highly similar titles.
+
+In a 5000 train sample, 2967 pairs had same label groups while rest 42k were different label groups. In this same label groups, pairs having title with
+high similarity was only 570 pairs and 162 pairs of the 42k different label groups had highly similar titles.
