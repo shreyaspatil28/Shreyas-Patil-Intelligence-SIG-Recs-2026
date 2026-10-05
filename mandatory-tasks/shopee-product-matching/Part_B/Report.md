@@ -14,9 +14,11 @@ F1 Score is the harmonic mean of Precision and Recall. Precision is true positiv
 
 Cases where model predicts same but actually isn't
 
-Suppose `iPhone 12 Case` and `iPhone 12 Cover`, their cosine similarity is high but they are not same products as case and cover are not same. So model performs poor on products having similar names but differing in few words and are different products
+Suppose `iPhone 12 Case` and `iPhone 12 Cover`, their cosine similarity is high but they are not same products as case and cover are not same. So model performs poor on products having similar names but differing in few words and are different products.
+Actual example from dataset : `mainan bayi gantung putar musik merry go round` and `Merry Go Round PS317 - Mainan Bayi Gantung Putar`
 
 Cases where model predicts different but actually is same
 When one product is a generic name of the item and the other is a specific item but same product, model can't see this as they will have low cosine similarity for eg `16gb RAM Laptop` and `HP Victus Ryzen 7`
+Actual example from dataset : `LVN COLLAGEN - ORIGINAL TERMURAH - LVN STROBERI - GARANSI UANG KEMBALI` and `LVN Collagen / Stroberi eco 1box (10 sachet)`
 
 ---
