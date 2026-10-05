@@ -19,3 +19,11 @@ pairs have colored image with highly similar titles.
 
 In a 5000 train sample, 2967 pairs had same label groups while rest 42k were different label groups. In this same label groups, pairs having title with
 high similarity was only 570 pairs and 162 pairs of the 42k different label groups had highly similar titles.
+
+## Challenges Faced
+
+Apart from the challenges mentioned in the `readme.md` like having different languages, titles containing punctuations and abbreviations, visually similar
+products having different label groups and visuallly different products having similar product titles there could be as there are large number of products
+comparing each item with every other item would pose O(N^2) lookup leading to high train times hence we use nerest neighbors or a subset of train dataset.
+Some products have few listings like only 2 or 3 so it's difficult to judge what that label group represents while some other label groups around 40-50
+listings. There is no hard defined image-title relationship so model will faulter on the two cases mentioned above. 
