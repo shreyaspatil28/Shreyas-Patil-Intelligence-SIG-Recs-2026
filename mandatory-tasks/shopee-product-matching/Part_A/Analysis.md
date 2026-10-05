@@ -4,7 +4,7 @@ groups are same items. There are `no null` values in the dataset and it contains
 without inspecting data.
 After seeing the product group distribution graph, almost 7k products are listed twice, almost 2k are listed thrice, less than 1k four times and so on where
 value keeps getting lower significantly.
---
+---
 
 Around 32k are unique images which means there are only about `2k duplicate images`, titles are also almost all unique with only 1k duplicate. However, 
 there are about `18k highly similar titles` (which have cosine similarity greater than 0.8). Many of the titles of listings are in the range of `7-11 words`
